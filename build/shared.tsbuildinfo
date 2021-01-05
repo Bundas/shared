@@ -1,0 +1,85 @@
+{
+  "bundle": {
+    "commonSourceDirectory": "..",
+    "sourceFiles": [
+      "../src/algorithm/draughts-engine.ts",
+      "../src/types.ts",
+      "../src/algorithm/should-enable-god-mode.ts",
+      "../src/draught-reducer.ts",
+      "../src/draughts-action-creator.ts",
+      "../index.ts"
+    ],
+    "js": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 392,
+          "kind": "emitHelpers",
+          "data": "typescript:assign"
+        },
+        {
+          "pos": 394,
+          "end": 2210,
+          "kind": "emitHelpers",
+          "data": "typescript:generator"
+        },
+        {
+          "pos": 2212,
+          "end": 2682,
+          "kind": "emitHelpers",
+          "data": "typescript:values"
+        },
+        {
+          "pos": 2684,
+          "end": 3188,
+          "kind": "emitHelpers",
+          "data": "typescript:read"
+        },
+        {
+          "pos": 3190,
+          "end": 3360,
+          "kind": "emitHelpers",
+          "data": "typescript:spread"
+        },
+        {
+          "pos": 3362,
+          "end": 3676,
+          "kind": "emitHelpers",
+          "data": "typescript:commonjscreatebinding"
+        },
+        {
+          "pos": 3678,
+          "end": 3882,
+          "kind": "emitHelpers",
+          "data": "typescript:export-star"
+        },
+        {
+          "pos": 3884,
+          "end": 23413,
+          "kind": "text"
+        }
+      ],
+      "sources": {
+        "helpers": [
+          "typescript:assign",
+          "typescript:generator",
+          "typescript:values",
+          "typescript:read",
+          "typescript:spread",
+          "typescript:commonjscreatebinding",
+          "typescript:export-star"
+        ]
+      }
+    },
+    "dts": {
+      "sections": [
+        {
+          "pos": 0,
+          "end": 3225,
+          "kind": "text"
+        }
+      ]
+    }
+  },
+  "version": "4.0.5"
+}
