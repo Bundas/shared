@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["esnext"],
+        "module": "amd",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "downlevelIteration": true,
+        /* Truncated compiler options to list only relevant options */
+        "declaration": true,
+        "declarationMap": true,
+        "rootDir": ".",
+        "composite": true,
+        "outFile": "build/shared.js"
+    },
+    "exclude": ["node_modules"],
+    "references": [] // * Any project that is referenced must itself have a `references` array (which may be empty).
+    
+}
